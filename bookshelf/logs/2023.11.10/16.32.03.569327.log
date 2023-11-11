@@ -1,0 +1,14 @@
+2023-11-10 16:32:03,571 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2023-11-10 16:32:03,575 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services']
+2023-11-10 16:32:03,647 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'delete']
+2023-11-10 16:32:03,649 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'list']
+2023-11-10 16:32:03,978 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'browse']
+2023-11-10 16:32:03,980 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'update']
+2023-11-10 16:32:03,982 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'describe']
+2023-11-10 16:32:03,985 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'set_traffic']
+2023-11-10 16:32:03,987 DEBUG    root            Loaded Command Group: ['gcloud', 'alpha', 'app']
+2023-11-10 16:32:03,990 DEBUG    root            No implementation for release track [ALPHA] for element: [C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\surface\app\services]
+2023-11-10 16:32:03,991 DEBUG    root            Loaded Command Group: ['gcloud', 'beta', 'app']
+2023-11-10 16:32:03,997 DEBUG    root            Loaded Command Group: ['gcloud', 'beta', 'app', 'services']
+2023-11-10 16:32:03,999 ERROR    root            (gcloud.app.services) Invalid choice: 'stop'.
+2023-11-10 16:32:04,467 DEBUG    root            Metrics reporting process started...

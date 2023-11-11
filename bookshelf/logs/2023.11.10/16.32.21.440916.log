@@ -1,0 +1,14 @@
+2023-11-10 16:32:21,441 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2023-11-10 16:32:21,445 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services']
+2023-11-10 16:32:21,843 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'browse']
+2023-11-10 16:32:21,846 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'set_traffic']
+2023-11-10 16:32:21,848 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'list']
+2023-11-10 16:32:21,851 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'update']
+2023-11-10 16:32:21,853 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'delete']
+2023-11-10 16:32:21,855 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'services', 'describe']
+2023-11-10 16:32:21,857 DEBUG    root            Loaded Command Group: ['gcloud', 'alpha', 'app']
+2023-11-10 16:32:21,861 DEBUG    root            No implementation for release track [ALPHA] for element: [C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\surface\app\services]
+2023-11-10 16:32:21,861 DEBUG    root            Loaded Command Group: ['gcloud', 'beta', 'app']
+2023-11-10 16:32:21,865 DEBUG    root            Loaded Command Group: ['gcloud', 'beta', 'app', 'services']
+2023-11-10 16:32:21,867 ERROR    root            (gcloud.app.services) Invalid choice: 'bookshelf'.
+2023-11-10 16:32:22,304 DEBUG    root            Metrics reporting process started...

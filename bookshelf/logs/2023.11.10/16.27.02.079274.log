@@ -1,0 +1,204 @@
+2023-11-10 16:27:02,080 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2023-11-10 16:27:02,588 DEBUG    root            Loaded Command Group: ['gcloud', 'app', 'deploy']
+2023-11-10 16:27:02,591 DEBUG    root            Running [gcloud.app.deploy] with arguments: []
+2023-11-10 16:27:02,624 DEBUG    root            Loading runtimes experiment config from [gs://runtime-builders/experiments.yaml]
+2023-11-10 16:27:02,659 INFO     root            Reading [<googlecloudsdk.api_lib.storage.storage_util.ObjectReference object at 0x0000019281321130>]
+2023-11-10 16:27:02,968 DEBUG    root            Flex image build option: FlexImageBuildOptions.ON_SERVER
+2023-11-10 16:27:02,985 DEBUG    root            API endpoint: [https://appengine.googleapis.com/], API version: [v1]
+2023-11-10 16:27:03,712 INFO     ___FILE_ONLY___ Services to deploy:
+
+
+2023-11-10 16:27:03,713 INFO     ___FILE_ONLY___ descriptor:                  [D:\projects\GCP\workspace\deploy-nodejs-gcp\bookshelf\app.yaml]
+source:                      [D:\projects\GCP\workspace\deploy-nodejs-gcp\bookshelf]
+target project:              [fleet-space-404401]
+target service:              [bookshelf]
+target version:              [20231110t162703]
+target url:                  [https://bookshelf-dot-fleet-space-404401.uc.r.appspot.com]
+target service account:      [fleet-space-404401@appspot.gserviceaccount.com]
+
+
+
+2023-11-10 16:27:06,513 DEBUG    root            No bucket specified, retrieving default bucket.
+2023-11-10 16:27:06,516 DEBUG    root            Using bucket [gs://staging.fleet-space-404401.appspot.com].
+2023-11-10 16:27:06,839 INFO     ___FILE_ONLY___ Beginning deployment of service [bookshelf]...
+
+2023-11-10 16:27:06,840 INFO     root            Using ignore file at [D:\projects\GCP\workspace\deploy-nodejs-gcp\bookshelf\.gcloudignore].
+2023-11-10 16:27:06,842 DEBUG    root            Skipping file [.gcloudignore]
+2023-11-10 16:27:06,842 DEBUG    root            Skipping file [.gitignore]
+2023-11-10 16:27:06,847 DEBUG    root            Skipping file [logs]
+2023-11-10 16:27:06,847 DEBUG    root            Skipping file [node_modules]
+2023-11-10 16:27:07,711 DEBUG    root            Skipping upload of [.dockerignore]
+2023-11-10 16:27:07,711 INFO     root            Incremental upload skipped 100.0% of data
+2023-11-10 16:27:07,711 DEBUG    root            Skipping upload of [.env]
+2023-11-10 16:27:07,711 INFO     root            Incremental upload skipped 100.0% of data
+2023-11-10 16:27:07,712 DEBUG    root            Skipping upload of [.eslintignore]
+2023-11-10 16:27:07,712 INFO     root            Incremental upload skipped 100.0% of data
+2023-11-10 16:27:07,712 DEBUG    root            Skipping upload of [.last_opt_in_prompt.yaml]
+2023-11-10 16:27:07,712 INFO     root            Incremental upload skipped 100.0% of data
+2023-11-10 16:27:07,712 DEBUG    root            Skipping upload of [.last_survey_prompt.yaml]
+2023-11-10 16:27:07,712 INFO     root            Incremental upload skipped 100.0% of data
+2023-11-10 16:27:07,712 DEBUG    root            Skipping upload of [.last_update_check.json]
+2023-11-10 16:27:07,712 INFO     root            Incremental upload skipped 100.0% of data
+2023-11-10 16:27:07,713 DEBUG    root            Skipping upload of [.metricsUUID]
+2023-11-10 16:27:07,713 INFO     root            Incremental upload skipped 100.0% of data
+2023-11-10 16:27:07,713 DEBUG    root            Skipping upload of [access_tokens.db]
+2023-11-10 16:27:07,713 INFO     root            Incremental upload skipped 100.0% of data
+2023-11-10 16:27:07,713 DEBUG    root            Skipping upload of [active_config]
+2023-11-10 16:27:07,713 INFO     root            Incremental upload skipped 100.0% of data
+2023-11-10 16:27:07,713 DEBUG    root            Skipping upload of [app.flex.yaml]
+2023-11-10 16:27:07,713 INFO     root            Incremental upload skipped 100.0% of data
+2023-11-10 16:27:07,713 DEBUG    root            Skipping upload of [app.js]
+2023-11-10 16:27:07,713 INFO     root            Incremental upload skipped 100.0% of data
+2023-11-10 16:27:07,714 INFO     root            Incremental upload skipped 94.92% of data
+2023-11-10 16:27:07,714 DEBUG    root            Skipping upload of [config_sentinel]
+2023-11-10 16:27:07,714 INFO     root            Incremental upload skipped 94.92% of data
+2023-11-10 16:27:07,714 DEBUG    root            Skipping upload of [credentials.db]
+2023-11-10 16:27:07,714 INFO     root            Incremental upload skipped 97.09% of data
+2023-11-10 16:27:07,714 DEBUG    root            Skipping upload of [default_configs.db]
+2023-11-10 16:27:07,714 INFO     root            Incremental upload skipped 97.96% of data
+2023-11-10 16:27:07,714 DEBUG    root            Skipping upload of [Dockerfile]
+2023-11-10 16:27:07,715 INFO     root            Incremental upload skipped 97.99% of data
+2023-11-10 16:27:07,715 DEBUG    root            Skipping upload of [gce]
+2023-11-10 16:27:07,715 INFO     root            Incremental upload skipped 97.99% of data
+2023-11-10 16:27:07,715 DEBUG    root            Skipping upload of [LICENSE]
+2023-11-10 16:27:07,715 INFO     root            Incremental upload skipped 98.42% of data
+2023-11-10 16:27:07,715 DEBUG    root            Skipping upload of [package-lock.json]
+2023-11-10 16:27:07,715 INFO     root            Incremental upload skipped 99.62% of data
+2023-11-10 16:27:07,715 DEBUG    root            Skipping upload of [package.json]
+2023-11-10 16:27:07,715 INFO     root            Incremental upload skipped 99.62% of data
+2023-11-10 16:27:07,715 DEBUG    root            Skipping upload of [preExecute.sh]
+2023-11-10 16:27:07,716 INFO     root            Incremental upload skipped 99.62% of data
+2023-11-10 16:27:07,716 DEBUG    root            Skipping upload of [README.md]
+2023-11-10 16:27:07,716 INFO     root            Incremental upload skipped 99.62% of data
+2023-11-10 16:27:07,716 DEBUG    root            Skipping upload of [yarn.lock]
+2023-11-10 16:27:07,716 INFO     root            Incremental upload skipped 99.74% of data
+2023-11-10 16:27:07,716 DEBUG    root            Skipping upload of [.secret/SA-idubi-dev.json]
+2023-11-10 16:27:07,716 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,717 DEBUG    root            Skipping upload of [books/api.js]
+2023-11-10 16:27:07,717 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,717 DEBUG    root            Skipping upload of [books/crud.js]
+2023-11-10 16:27:07,717 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,717 DEBUG    root            Skipping upload of [books/firestore.js]
+2023-11-10 16:27:07,717 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,717 DEBUG    root            Skipping upload of [configurations/config_default]
+2023-11-10 16:27:07,717 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,717 DEBUG    root            Skipping upload of [gke/deployment-with-affinity.yaml]
+2023-11-10 16:27:07,718 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,718 DEBUG    root            Skipping upload of [gke/deployment.yaml]
+2023-11-10 16:27:07,718 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,718 DEBUG    root            Skipping upload of [gke/ingress.yaml]
+2023-11-10 16:27:07,718 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,718 DEBUG    root            Skipping upload of [gke/managed-cert.yaml]
+2023-11-10 16:27:07,718 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,718 DEBUG    root            Skipping upload of [gke/service-lb.yaml]
+2023-11-10 16:27:07,718 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,719 DEBUG    root            Skipping upload of [gke/service-nodeport.yaml]
+2023-11-10 16:27:07,719 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,719 DEBUG    root            Skipping upload of [legacy_credentials/idubi.spam@gmail.com/.boto]
+2023-11-10 16:27:07,719 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,719 DEBUG    root            Skipping upload of [legacy_credentials/idubi.spam@gmail.com/adc.json]
+2023-11-10 16:27:07,719 INFO     root            Incremental upload skipped 99.75% of data
+2023-11-10 16:27:07,719 DEBUG    root            Skipping upload of [lib/images.js]
+2023-11-10 16:27:07,719 INFO     root            Incremental upload skipped 99.76% of data
+2023-11-10 16:27:07,719 DEBUG    root            Skipping upload of [test/app.test.js]
+2023-11-10 16:27:07,719 INFO     root            Incremental upload skipped 99.76% of data
+2023-11-10 16:27:07,720 DEBUG    root            Skipping upload of [views/base.pug]
+2023-11-10 16:27:07,720 INFO     root            Incremental upload skipped 99.76% of data
+2023-11-10 16:27:07,720 DEBUG    root            Skipping upload of [views/books/form.pug]
+2023-11-10 16:27:07,720 INFO     root            Incremental upload skipped 99.76% of data
+2023-11-10 16:27:07,720 DEBUG    root            Skipping upload of [views/books/list.pug]
+2023-11-10 16:27:07,720 INFO     root            Incremental upload skipped 99.76% of data
+2023-11-10 16:27:07,720 DEBUG    root            Skipping upload of [views/books/view.pug]
+2023-11-10 16:27:07,720 INFO     root            Incremental upload skipped 99.76% of data
+2023-11-10 16:27:07,721 DEBUG    root            Skipping upload of [source-context.json]
+2023-11-10 16:27:07,721 INFO     root            Incremental upload skipped 99.76% of data
+2023-11-10 16:27:07,721 DEBUG    root            Uploading 1 file to Google Cloud Storage
+2023-11-10 16:27:07,721 DEBUG    root            Using [16] threads
+2023-11-10 16:27:07,723 INFO     ___FILE_ONLY___ #============================================================#
+
+2023-11-10 16:27:07,723 INFO     ___FILE_ONLY___ #= Uploading 1 file to Google Cloud Storage                 =#
+
+2023-11-10 16:27:07,724 INFO     ___FILE_ONLY___ #
+2023-11-10 16:27:07,735 INFO     root            Uploading [D:\projects\GCP\workspace\deploy-nodejs-gcp\bookshelf\app.yaml] to [staging.fleet-space-404401.appspot.com/b7a8d0e15296cd80559d0803d97389a3558fb692]
+2023-11-10 16:27:08,151 INFO     ___FILE_ONLY___ ============================================================
+2023-11-10 16:27:08,152 INFO     ___FILE_ONLY___ #
+
+2023-11-10 16:27:08,169 INFO     ___FILE_ONLY___ File upload done.
+
+2023-11-10 16:27:08,170 INFO     root            Manifest: [{'.dockerignore': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/8d431bed95fcae2bf1514f8cd4ecdacd2a560008', 'sha1Sum': '8d431bed95fcae2bf1514f8cd4ecdacd2a560008'}, '.env': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/df06da8763a4029767d57e19946a567ba6fe0e56', 'sha1Sum': 'df06da8763a4029767d57e19946a567ba6fe0e56'}, '.eslintignore': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/f7c0844463021d5ceef03cda7e3f19ccae37c34c', 'sha1Sum': 'f7c0844463021d5ceef03cda7e3f19ccae37c34c'}, '.last_opt_in_prompt.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/3d11ffbf9fa0c9dea47b67e92e83fac18e91b8bb', 'sha1Sum': '3d11ffbf9fa0c9dea47b67e92e83fac18e91b8bb'}, '.last_survey_prompt.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/f77ca02810c7e20f9206f56a161976bae4d72afd', 'sha1Sum': 'f77ca02810c7e20f9206f56a161976bae4d72afd'}, '.last_update_check.json': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/72e4cc0414abb39b7fc5e8289143ceb0abfaa7d0', 'sha1Sum': '72e4cc0414abb39b7fc5e8289143ceb0abfaa7d0'}, '.metricsUUID': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/847db82360d385afd29e8a1228022855ca507e03', 'sha1Sum': '847db82360d385afd29e8a1228022855ca507e03'}, 'access_tokens.db': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/531b50f974d1f99d82f10e2e49e6b1a8e3482df3', 'sha1Sum': '531b50f974d1f99d82f10e2e49e6b1a8e3482df3'}, 'active_config': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/7505d64a54e061b7acd54ccd58b49dc43500b635', 'sha1Sum': '7505d64a54e061b7acd54ccd58b49dc43500b635'}, 'app.flex.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/d3085b98a6554f8f92791605f6788cda5cae9efa', 'sha1Sum': 'd3085b98a6554f8f92791605f6788cda5cae9efa'}, 'app.js': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/b532c0df0ab202ff7541033c4f49754dce2859ee', 'sha1Sum': 'b532c0df0ab202ff7541033c4f49754dce2859ee'}, 'app.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/b7a8d0e15296cd80559d0803d97389a3558fb692', 'sha1Sum': 'b7a8d0e15296cd80559d0803d97389a3558fb692'}, 'config_sentinel': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/da39a3ee5e6b4b0d3255bfef95601890afd80709', 'sha1Sum': 'da39a3ee5e6b4b0d3255bfef95601890afd80709'}, 'credentials.db': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/670479ff337b18f40d961e9638d02d27aad4d5dd', 'sha1Sum': '670479ff337b18f40d961e9638d02d27aad4d5dd'}, 'default_configs.db': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/a933a2688e63e43445a83d18d2bc43d35f1a8ec1', 'sha1Sum': 'a933a2688e63e43445a83d18d2bc43d35f1a8ec1'}, 'Dockerfile': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/92261d3c17dfc2959fd86dd1a5962cd340d04074', 'sha1Sum': '92261d3c17dfc2959fd86dd1a5962cd340d04074'}, 'gce': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/97cdbdc7feff827efb082a6b6dd2727237cd49fd', 'sha1Sum': '97cdbdc7feff827efb082a6b6dd2727237cd49fd'}, 'LICENSE': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/47b573e3824cd5e02a1a3ae99e2735b49e0256e4', 'sha1Sum': '47b573e3824cd5e02a1a3ae99e2735b49e0256e4'}, 'package-lock.json': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/e91b17358a57b16f2b72a893beacce6d846d5585', 'sha1Sum': 'e91b17358a57b16f2b72a893beacce6d846d5585'}, 'package.json': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/2794adc46b0f035b63ecb1685ba85b44009ba321', 'sha1Sum': '2794adc46b0f035b63ecb1685ba85b44009ba321'}, 'preExecute.sh': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/919f73095b4e50512efd3c8a3fc5e33242f83bae', 'sha1Sum': '919f73095b4e50512efd3c8a3fc5e33242f83bae'}, 'README.md': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/c3f87cff14e70baf875105c775e172d8333631c9', 'sha1Sum': 'c3f87cff14e70baf875105c775e172d8333631c9'}, 'yarn.lock': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/e5708be97187c28c90bf5a06409753f2fe00ba05', 'sha1Sum': 'e5708be97187c28c90bf5a06409753f2fe00ba05'}, '.secret/SA-idubi-dev.json': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/759100016df1f426b09b32311e367c55561309ee', 'sha1Sum': '759100016df1f426b09b32311e367c55561309ee'}, 'books/api.js': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/6631a447496996991897752df79f560b11dfce43', 'sha1Sum': '6631a447496996991897752df79f560b11dfce43'}, 'books/crud.js': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/5e3723f3b6a34445ca07b59baaeefb50826836d5', 'sha1Sum': '5e3723f3b6a34445ca07b59baaeefb50826836d5'}, 'books/firestore.js': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/e7b3661d7e95f218168e6c502eb83c287db2d1a4', 'sha1Sum': 'e7b3661d7e95f218168e6c502eb83c287db2d1a4'}, 'configurations/config_default': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/8ecf4f6d4f229a1209b21696787fdd0557c87165', 'sha1Sum': '8ecf4f6d4f229a1209b21696787fdd0557c87165'}, 'gke/deployment-with-affinity.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/12273f7aea92da68caae3c4dcf48817bf4ba1ff0', 'sha1Sum': '12273f7aea92da68caae3c4dcf48817bf4ba1ff0'}, 'gke/deployment.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/296ec882926031dabb02c7aa00ac0c889b2a9f95', 'sha1Sum': '296ec882926031dabb02c7aa00ac0c889b2a9f95'}, 'gke/ingress.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/e40c11d3b26e1936c2b143a6526776609effb933', 'sha1Sum': 'e40c11d3b26e1936c2b143a6526776609effb933'}, 'gke/managed-cert.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/13542c1ad14f92110af4bbf0e808701ed0f17576', 'sha1Sum': '13542c1ad14f92110af4bbf0e808701ed0f17576'}, 'gke/service-lb.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/e4ce4998e42723578152de61b03994b0ff0b5605', 'sha1Sum': 'e4ce4998e42723578152de61b03994b0ff0b5605'}, 'gke/service-nodeport.yaml': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/73243f43c749ef0ff017f6c982ac70ff02700735', 'sha1Sum': '73243f43c749ef0ff017f6c982ac70ff02700735'}, 'legacy_credentials/idubi.spam@gmail.com/.boto': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/da31ca1b4c78574eff82daa6bbd472595e19fd90', 'sha1Sum': 'da31ca1b4c78574eff82daa6bbd472595e19fd90'}, 'legacy_credentials/idubi.spam@gmail.com/adc.json': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/fcc3125f66fbec0bbee98230b6f087032e483c07', 'sha1Sum': 'fcc3125f66fbec0bbee98230b6f087032e483c07'}, 'lib/images.js': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/d4d0fb0c2412a95a24094457d4728d002dc9c5d6', 'sha1Sum': 'd4d0fb0c2412a95a24094457d4728d002dc9c5d6'}, 'test/app.test.js': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/7096cdfd3f3319dde4f46f97fbf90b88762afbf9', 'sha1Sum': '7096cdfd3f3319dde4f46f97fbf90b88762afbf9'}, 'views/base.pug': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/5f829d3d8f42061e2e5fff2f793f8e4a5ab8942a', 'sha1Sum': '5f829d3d8f42061e2e5fff2f793f8e4a5ab8942a'}, 'views/books/form.pug': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/1ebd94c51c47c8873b7c6cfe8eb763e49c29d04e', 'sha1Sum': '1ebd94c51c47c8873b7c6cfe8eb763e49c29d04e'}, 'views/books/list.pug': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/72d31da7724942e4170c3d94565f52ad7290c56f', 'sha1Sum': '72d31da7724942e4170c3d94565f52ad7290c56f'}, 'views/books/view.pug': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/776d98eeb9bca99778055b6ceece55ca8b658a39', 'sha1Sum': '776d98eeb9bca99778055b6ceece55ca8b658a39'}, 'source-context.json': {'sourceUrl': 'https://storage.googleapis.com/staging.fleet-space-404401.appspot.com/aaa21993871e132c8d2d1fc9e3bfc43c154592ec', 'sha1Sum': 'aaa21993871e132c8d2d1fc9e3bfc43c154592ec'}}]
+2023-11-10 16:27:08,172 DEBUG    root            Converted YAML to JSON: "{
+  "entrypoint": {
+    "shell": ""
+  },
+  "handlers": [
+    {
+      "redirectHttpResponseCode": "REDIRECT_HTTP_RESPONSE_CODE_301",
+      "script": {
+        "scriptPath": "auto"
+      },
+      "securityLevel": "SECURE_ALWAYS",
+      "urlRegex": "/.*"
+    }
+  ],
+  "instanceClass": "F2",
+  "manualScaling": {
+    "instances": 1
+  },
+  "runtime": "nodejs20"
+}"
+2023-11-10 16:27:08,499 DEBUG    root            Chosen display Format:default
+2023-11-10 16:27:08,505 DEBUG    root            Chosen display Format:default
+2023-11-10 16:27:08,510 DEBUG    root            Chosen display Format:default
+2023-11-10 16:27:08,514 DEBUG    root            (gcloud.app.deploy) INVALID_ARGUMENT: Instance class (F2) is only allowed with the automatic scaling value.
+- '@type': type.googleapis.com/google.rpc.BadRequest
+  fieldViolations:
+  - description: Instance class (F2) is only allowed with the automatic scaling value.
+    field: version.instance_class
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\calliope\cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\calliope\backend.py", line 807, in Run
+    resources = command_instance.Run(args)
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\surface\app\deploy.py", line 120, in Run
+    return deploy_util.RunDeploy(
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\command_lib\app\deploy_util.py", line 677, in RunDeploy
+    deployer.Deploy(
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\command_lib\app\deploy_util.py", line 471, in Deploy
+    self.api_client.DeployService(new_version.service, new_version.id,
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\api_lib\app\appengine_api_client.py", line 186, in DeployService
+    operation = self._CreateVersion(service_name, version_id, service_config,
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\api_lib\app\appengine_api_client.py", line 281, in _CreateVersion
+    return self.client.apps_services_versions.Create(create_request)
+  File "C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\lib\googlecloudsdk\generated_clients\apis\appengine\v1\appengine_v1_client.py", line 829, in Create
+    return self._RunMethod(
+  File "C:\Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/lib\third_party\apitools\base\py\base_api.py", line 737, in _RunMethod
+    return self.ProcessHttpResponse(method_config, http_response, request)
+  File "C:\Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/lib\third_party\apitools\base\py\base_api.py", line 743, in ProcessHttpResponse
+    self.__ProcessHttpResponse(method_config, http_response, request))
+  File "C:\Program Files (x86)/Google/Cloud SDK/google-cloud-sdk/lib\third_party\apitools\base\py\base_api.py", line 609, in __ProcessHttpResponse
+    raise exceptions.HttpError.FromResponse(
+apitools.base.py.exceptions.HttpBadRequestError: HttpError accessing <https://appengine.googleapis.com/v1/apps/fleet-space-404401/services/bookshelf/versions?alt=json>: response: <{'vary': 'Origin, X-Origin, Referer', 'content-type': 'application/json; charset=UTF-8', 'date': 'Fri, 10 Nov 2023 14:27:08 GMT', 'server': 'ESF', 'cache-control': 'private', 'x-xss-protection': '0', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'alt-svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'transfer-encoding': 'chunked', 'status': '400', 'content-length': '470', '-content-encoding': 'gzip'}>, content <{
+  "error": {
+    "code": 400,
+    "message": "Instance class (F2) is only allowed with the automatic scaling value.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.BadRequest",
+        "fieldViolations": [
+          {
+            "field": "version.instance_class",
+            "description": "Instance class (F2) is only allowed with the automatic scaling value."
+          }
+        ]
+      }
+    ]
+  }
+}
+>
+2023-11-10 16:27:08,523 ERROR    root            (gcloud.app.deploy) INVALID_ARGUMENT: Instance class (F2) is only allowed with the automatic scaling value.
+- '@type': type.googleapis.com/google.rpc.BadRequest
+  fieldViolations:
+  - description: Instance class (F2) is only allowed with the automatic scaling value.
+    field: version.instance_class
+2023-11-10 16:27:08,557 DEBUG    root            Metrics reporting process started...
